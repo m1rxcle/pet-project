@@ -1,0 +1,16 @@
+.footer-container {
+	position: absolute;
+	bottom: 0;
+	right: 50%; /* Центрирование по горизонтали */
+	transform: translateX(50%); /* Сдвиг на 50% для центрирования */
+	color: white;
+	text-align: center;
+	word-spacing: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.link {
+	color: steelblue;
+	text-decoration: none;
+}
