@@ -4,7 +4,11 @@
 }
 
 .main-title {
-	color: white;
+	background: linear-gradient(90deg, #236690 40%, #ffffff 60%);
+	background-clip: text;
+	color: transparent;
+	font-size: 50px;
+	font: bolder;
 }
 
 .search {
@@ -13,16 +17,19 @@
 }
 
 .search-input {
+	color: black;
 	outline: none;
-	border: 1px solid gray;
+	border: 1px solid rgb(199, 192, 192);
 	border-radius: 7px;
 	padding: 5px;
 	font-size: 15px;
-	background: #afafaf;
+	color: black;
+	font-weight: bold;
 }
 
 .search-description {
 	display: none;
+	transition: all 1s ease-in-out;
 }
 
 .search-description--active {
@@ -38,6 +45,8 @@
 	font-size: 20px;
 	text-align: start;
 	padding: 10px;
+	transition: all 1s ease-in-out;
+	transform: rotate(360deg);
 }
 
 @media (max-width: 575px) {
@@ -82,7 +91,7 @@
 		border: 1px solid black;
 		border-radius: 5px;
 		color: black;
-		background: #afafaf;
+		background: white;
 		font-size: 20px;
 		text-align: start;
 		padding: 10px;
@@ -90,11 +99,13 @@
 }
 
 .description-title {
+	font-weight: bolder;
 	margin: 0;
 }
 
 .description-pretitle {
 	margin: 0;
+	font-style: italic;
 }
 
 .searchBtn {
@@ -102,11 +113,12 @@
 	width: 80px;
 	margin-left: 10px;
 	cursor: pointer;
-	background-color: #afafaf;
+	color: black;
 	border-radius: 5px;
 	border: 1px solid black;
 	font-size: 15px;
 	transition: all 0.5s ease;
+	font-weight: bold;
 }
 
 .searchBtn:active {

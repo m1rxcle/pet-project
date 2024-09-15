@@ -27,7 +27,6 @@ const Main: React.FC = () => {
 			<div className="search">
 				<input
 					className="search-input"
-					type="search"
 					placeholder="Начните искать..."
 					value={searchTerm}
 					onChange={handleInputChange}
